@@ -1,47 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Travel Recommendation</title>
+  <meta charset="UTF-8">
+  <title>Travel Explorer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav>
-  <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="logo">Travel Explorer</div>
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
     <li><a href="about.html">About Us</a></li>
     <li><a href="contact.html">Contact Us</a></li>
   </ul>
 </nav>
 
-<h1>Welcome to Travel Explorer</h1>
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Discover Your Next Adventure</h1>
+  <p>
+    Personalized travel recommendations to help you explore breathtaking destinations,
+    rich cultures, and unforgettable experiences.
+  </p>
+</section>
 
-<p>
-Discover your perfect travel destination based on your interests.
-From serene beaches to historic temples and country-based recommendations,
-we help you plan unforgettable journeys.
-</p>
+<!-- Recommendations -->
+<section class="container">
 
-<hr>
+  <div class="card">
+    <h2>🏖 Beach Destinations</h2>
+    <p>Relax by crystal-clear waters and golden sands.</p>
+    <div class="image-grid">
+      <img src="images/beach1.jpg" alt="Beautiful beach">
+      <img src="images/beach2.jpg" alt="Tropical beach">
+    </div>
+  </div>
 
-<h2>🏖 Beach Recommendation</h2>
-<p>Relax and unwind at some of the world's most beautiful beaches.</p>
-<img src="images/beach1.jpg" width="300">
-<img src="images/beach2.jpg" width="300">
+  <div class="card">
+    <h2>🛕 Temple Destinations</h2>
+    <p>Experience spirituality, history, and architectural beauty.</p>
+    <div class="image-grid">
+      <img src="images/temple1.jpg" alt="Ancient temple">
+      <img src="images/temple2.jpg" alt="Historic temple">
+    </div>
+  </div>
 
-<hr>
+  <div class="card">
+    <h2>🌍 Country-Based Destinations</h2>
+    <p>Explore unique cultures and landscapes across the globe.</p>
+    <div class="image-grid">
+      <img src="images/country1.jpg" alt="Country destination">
+      <img src="images/country2.jpg" alt="Scenic country view">
+    </div>
+  </div>
 
-<h2>🛕 Temple Recommendation</h2>
-<p>Explore spiritual and historic temples rich in culture.</p>
-<img src="images/temple1.jpg" width="300">
-<img src="images/temple2.jpg" width="300">
+</section>
 
-<hr>
-
-<h2>🌍 Country-Based Recommendation</h2>
-<p>Discover amazing destinations across different countries.</p>
-<img src="images/country1.jpg" width="300">
-<img src="images/country2.jpg" width="300">
+<footer>
+  <p>© 2026 Travel Explorer. All rights reserved.</p>
+</footer>
 
 <script src="js/script.js"></script>
 </body>
